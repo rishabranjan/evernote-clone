@@ -1,0 +1,20 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC7p68DMr4EVDQotKpj9DYvmFSRqpxKimU",
+    authDomain: "evernote-clone-ca38f.firebaseapp.com",
+    databaseURL: "https://evernote-clone-ca38f.firebaseio.com",
+    projectId: "evernote-clone-ca38f",
+    storageBucket: "evernote-clone-ca38f.appspot.com",
+    messagingSenderId: "725170777747",
+    appId: "1:725170777747:web:a57bb71fb5b097975b6766"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
