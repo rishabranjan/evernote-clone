@@ -3,12 +3,23 @@ import ReactQuill from "react-quill";
 import debounce from "../helper";
 import BorderColorIcon from "@material-ui/icons/BorderColor";
 import { withStyles } from "@material-ui/core/styles";
-import styles from "./sytles";
+import styles from "./styles";
 
 class SidebarComponent extends Component {
-  state = {};
+  state = {
+    text: "",
+    tittle: "",
+    id: ""
+  };
   render() {
-    return <div>Hello from the editor</div>;
+    const { classes } = this.props;
+    console.log(this.props);
+
+    return (
+      <div className={classes}>
+        <ReactQuill></ReactQuill>
+      </div>
+    );
   }
 }
 

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import ReactQuill from "react-quill";
-import debounce from "../helper";
-import BorderColorIcon from "@material-ui/icons/BorderColor";
 import { withStyles } from "@material-ui/core/styles";
-import styles from "./sytles";
+import styles from "./styles";
+import List from "@material-ui/core/List";
+import { Divider, Button } from "@material-ui/core";
+import SidebarItemComponent from "../sidebarItem/sidebarItem";
 
 class SidebarComponent extends Component {
   state = {};

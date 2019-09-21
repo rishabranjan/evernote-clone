@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import ReactQuill from "react-quill";
-import debounce from "../helper";
-import BorderColorIcon from "@material-ui/icons/BorderColor";
 import { withStyles } from "@material-ui/core/styles";
-import styles from "./sytles";
-
-class EditorComponet extends Component {
+import styles from "./styles";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
+import DeleteIcon from "@material-ui/icons/Delete";
+import { removeHTMLTags } from "../helper";
+class SidebarItem extends Component {
   state = {};
   render() {
-    return <div>Hello from the sidebar</div>;
+    return <div>Hello from the sidebarItem</div>;
   }
 }
 
-export default withStyles(styles)(EditorComponet);
+export default withStyles(styles)(SidebarItem);
